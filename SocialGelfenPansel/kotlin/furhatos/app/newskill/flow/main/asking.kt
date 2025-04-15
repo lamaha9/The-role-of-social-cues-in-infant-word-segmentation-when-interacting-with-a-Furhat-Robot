@@ -159,13 +159,13 @@ val Geschichte: State= state (Parent) {
 
         furhat.say{+Audio("classpath:Geschichte.wav", "AUFNAHME",speech = true) }
 
-       //furhat.say{+Audio("classpath:Gelfen.wav", "AUFNAHME",speech = true) }
+       furhat.say{+Audio("classpath:Gelfen.wav", "AUFNAHME",speech = true) }
 
-       //furhat.say{+Audio("classpath:Pansel.wav", "AUFNAHME",speech = true) }
+       furhat.say{+Audio("classpath:Pansel.wav", "AUFNAHME",speech = true) }
 
-       furhat.say{+Audio("classpath:Tompel.wav", "AUFNAHME",speech = true) }
+       //furhat.say{+Audio("classpath:Tompel.wav", "AUFNAHME",speech = true) }
 
-       furhat.say{+Audio("classpath:Dinken.wav", "AUFNAHME",speech = true) }
+       //furhat.say{+Audio("classpath:Dinken.wav", "AUFNAHME",speech = true) }
 
 
         goto(Abschied)
